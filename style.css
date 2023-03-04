@@ -18,7 +18,7 @@ body{
 }
 
 .nav-bar a{
-    color: white;
+    color: rgb(225, 220, 215);
     text-decoration: none;
     font-size: 18px;
     letter-spacing: 2px;
@@ -74,6 +74,7 @@ body{
     background-color: rgb(50, 49, 49);
     display: flex;
     justify-content: center;
+    
 }
 
 .about-me-short img{
@@ -83,7 +84,8 @@ body{
 }
 
 .about-me-short div{
-    width: 50%;
+    margin-left: 150px;
+    margin-right: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,6 +97,38 @@ body{
     color: white;
 }
 
-.about-me-short span{
-    margin-top: 100px;
+.about-me-short-text:last-child{
+    display: flex;
+    align-items: flex-start;
 }
+
+.about-me-short span{
+    font-size: 22px;
+    font-family: 'Source Sans Pro';
+    font-weight: 100;
+    margin-right: 20px;
+    color: rgb(225, 220, 215);
+}
+
+h2{
+    font-size: 42px;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start !important;
+    color: rgb(250, 209, 169);
+}
+
+.about-me-button button{
+    padding: 12px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: 1px solid rgb(249, 227, 198);
+    border-radius: 10px;
+}
+
+.about-me-button {
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+}
+
