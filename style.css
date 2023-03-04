@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+}
+
+.head-diashow img{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+}
+
+.nav-bar a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Libre Baskerville';
+    border-bottom: 1px solid none;
+    transition: all 250ms ease-in-out;
+}
+
+.nav-bar a:hover{
+    color: rgb(249, 227, 198);   
+}
+
+.header{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.cool-link {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: rgb(72, 72, 72);
+    transition: width .3s;
+}
+
+.cool-link:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+.inquiry button{
+    padding: 12px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: 1px solid rgb(249, 227, 198);
+    border-radius: 10px;
+}
+
+.about-me-short{
+    height: 600px;
+    background-color: rgb(50, 49, 49);
+    display: flex;
+    justify-content: center;
+}
+
+.about-me-short img{
+    height: 500px;
+    width: 450px;
+    object-fit: cover;
+}
+
+.about-me-short div{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me-short-text{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.about-me-short span{
+    margin-top: 100px;
+}
