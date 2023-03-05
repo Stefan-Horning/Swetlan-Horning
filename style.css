@@ -169,6 +169,7 @@ h2{
     font-size: 18px;
     letter-spacing: 2px;
     padding: 12px;
+    border-radius: 8px;
 }
 
 .selected-gallery{
@@ -178,12 +179,18 @@ h2{
 .gallery-img{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
     margin-left: 20px;
     margin-right: 20px;
 }
 
 .gallery-img img{
     margin: 8px;
+    max-width: 300px;
+    max-height: 500px;
+    object-fit: cover;
 }
 
+footer{
+    background-color: rgb(24, 24, 24);
+    height: 400px;
+}
